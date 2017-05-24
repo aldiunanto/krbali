@@ -46,7 +46,7 @@
 						<div id="top-search">
 							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
 							<form action="search.html" method="get">
-								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+								<input type="text" name="q" class="form-control" value="" placeholder="Ketik &amp; Dan Tekan Enter..">
 							</form>
 						</div>
 					</div>
@@ -70,9 +70,9 @@
 										Candikuning, Baturiti, Tabanan, Balai<br>
 										INDONESIA - 821917<br><br>
 								</address>
-								<abbr title="Np. Telepon"><strong>Phone:</strong></abbr> xxxxxxx <br>
+								<abbr title="Np. Telepon"><strong>No. Telepon:</strong></abbr> xxxxxxx <br>
 								<abbr title="Fax"><strong>Fax:</strong></abbr> xxxxxxxx <br>
-								<abbr title="Alamat Email"><strong>Email:</strong></abbr> blabla@bla.com
+								<abbr title="Alamat Email"><strong>E-mail:</strong></abbr> blabla@bla.com
 							</div>
 						</div>
 					</div>
