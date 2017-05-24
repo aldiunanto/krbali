@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'Beranda@index');
+Route::get('kontak', 'Kontak@index');

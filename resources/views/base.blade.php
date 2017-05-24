@@ -41,7 +41,7 @@
 							<li {!! (currentRoute('class') == 'perpustakaan' ? 'class="current"' : '') !!}><a href="#"><div>Perpustakaan</div></a></li>
 							<li {!! (currentRoute('class') == 'layananPublik' ? 'class="current"' : '') !!}><a href="#"><div>Layanan Publik</div></a></li>
 							<li {!! (currentRoute('class') == 'produk' ? 'class="current"' : '') !!}><a href="#"><div>Produk</div></a></li>
-							<li {!! (currentRoute('class') == 'kontak' ? 'class="current"' : '') !!}><a href="#"><div>Kontak</div></a></li>
+							<li {!! (currentRoute('class') == 'kontak' ? 'class="current"' : '') !!}><a href="{{ url('kontak') }}"><div>Kontak</div></a></li>
 						</ul>
 						<div id="top-search">
 							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
