@@ -34,14 +34,14 @@
 					<div class="container clearfix">
 						<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 						<ul>
-							<li class="current"><a href="{{ url('/') }}"><div>Beranda</div></a></li>
-							<li><a href="#"><div>Tentang</div></a></li>
-							<li><a href="#"><div>Koleksi</div></a></li>
-							<li><a href="#"><div>Informasi</div></a></li>
-							<li><a href="#"><div>Perpustakaan</div></a></li>
-							<li><a href="#"><div>Layanan Publik</div></a></li>
-							<li><a href="#"><div>Produk</div></a></li>
-							<li><a href="#"><div>Kontak</div></a></li>
+							<li {!! (currentRoute('class') == 'beranda' ? 'class="current"' : '') !!}><a href="{{ url('/') }}"><div>Beranda</div></a></li>
+							<li {!! (currentRoute('class') == 'tentang' ? 'class="current"' : '') !!}><a href="#"><div>Tentang</div></a></li>
+							<li {!! (currentRoute('class') == 'koleksi' ? 'class="current"' : '') !!}><a href="#"><div>Koleksi</div></a></li>
+							<li {!! (currentRoute('class') == 'informasi' ? 'class="current"' : '') !!}><a href="#"><div>Informasi</div></a></li>
+							<li {!! (currentRoute('class') == 'perpustakaan' ? 'class="current"' : '') !!}><a href="#"><div>Perpustakaan</div></a></li>
+							<li {!! (currentRoute('class') == 'layananPublik' ? 'class="current"' : '') !!}><a href="#"><div>Layanan Publik</div></a></li>
+							<li {!! (currentRoute('class') == 'produk' ? 'class="current"' : '') !!}><a href="#"><div>Produk</div></a></li>
+							<li {!! (currentRoute('class') == 'kontak' ? 'class="current"' : '') !!}><a href="#"><div>Kontak</div></a></li>
 						</ul>
 						<div id="top-search">
 							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
