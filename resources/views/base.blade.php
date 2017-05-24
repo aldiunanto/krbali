@@ -190,18 +190,18 @@
 	<script type="text/javascript" src="{{ asset('js/plugins.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('js/functions.js') }}"></script>
 	<script type="text/javascript" src="https://maps.google.com/maps/api/js"></script>
-	<script type="text/javascript" src="js/jquery.gmap.js"></script>
+	<script type="text/javascript" src="{{ asset('js/jquery.gmap.js') }}"></script>
 	<script type="text/javascript">
 		$(function(){
 			if($('#google-map').length > 0){
 				jQuery('#google-map').gMap({
-					address: 'Melbourne, Australia',
+					address: 'kebun raya bali, indonesia',
 					maptype: 'ROADMAP',
 					zoom: 14,
 					markers: [
 						{
-							address: "Melbourne, Australia",
-							html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Hi, we\'re <span>Envato</span></h4><p class="nobottommargin">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn <strong>creative skills</strong>.</p></div>',
+							address: "kebun raya bali, indonesia",
+							html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Kebun Raya Bali</h4><p class="nobottommargin">Visi kami adalah menjadi kebun raya terbaik kelas dunia yang menjadi referensi nasional maupun internasional dalam bidang konservasi ex-situ tumbuhan pegunungan tropika dan pelayanan dalam aspek botani, pendidikan lingkungan, hortikultura, lansekap dan pariwisata.</p></div>',
 							icon: {
 								image: "images/icons/map-icon-red.png",
 								iconsize: [32, 39],
