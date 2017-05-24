@@ -13527,6 +13527,8 @@ body:not(.no-transition) #wrapper,
 
 
 /*sini yaaa*/
+#logo img{ height: 85px; }
+footer .footer-logo{ max-width: 80%; }
 .tiket-masuk td{
 	padding: 0 15px 0 15px;
 }

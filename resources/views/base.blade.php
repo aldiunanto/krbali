@@ -25,8 +25,8 @@
 		<header id="header" class="sticky-style-2">
 			<div class="container clearfix">
 				<div id="logo">
-					<a href="{{ url('/') }}" class="standard-logo" data-dark-logo="{{ asset('images/logo-dark.png') }}"><img src="{{ asset('images/logo.png') }}" alt="Canvas Logo"></a>
-					<a href="{{ url('/') }}" class="retina-logo" data-dark-logo="{{ asset('images/logo-dark@2x.png') }}"><img src="{{ asset('images/logo@2x.png') }}" alt="Canvas Logo"></a>
+					<a href="{{ url('/') }}" class="standard-logo" data-dark-logo="{{ asset('images/krbali-logo.png') }}"><img src="{{ asset('images/krbali-logo.png') }}" alt="KRBALI Logo"></a>
+					<a href="{{ url('/') }}" class="retina-logo" data-dark-logo="{{ asset('images/krbali-logo.png') }}"><img src="{{ asset('images/krbali-logo.png') }}" alt="KRBALI Logo"></a>
 				</div>
 			</div>
 			<div id="header-wrap">
@@ -61,7 +61,7 @@
 				<div class="footer-widgets-wrap clearfix">
 					<div class="col_one_third">
 						<div class="widget clearfix">
-							<img src="{{ asset('images/footer-widget-logo.png') }}" alt="" class="footer-logo">
+							<img src="{{ asset('images/krbali-logo.png') }}" alt="" class="footer-logo">
 							<div style="background: url('{{ asset('images/world-map.png') }}') no-repeat center center; background-size: 100%;">
 								<address>
 									<strong>Kontak</strong><br><br>
